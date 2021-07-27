@@ -17,7 +17,7 @@ function createWindow() {
             preload: path.join(__dirname, 'preload.js')
         }
     })
-    mainWindow.loadURL("https://www.99bill.com/seashell/website/tools/project-management/index.html#/user/login")
+    mainWindow.loadURL("http://localhost:8000")
 
     // mainWindow.loadFile('index.html')
 }
